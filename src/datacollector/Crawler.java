@@ -18,6 +18,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  *
@@ -64,7 +66,10 @@ public class Crawler {
             //        String token = "EAACEdEose0cBAJUZBtjZAdD70Kx8CLJrstf3TqroZBPB44v80utYCd4Pgo4FJCInKq5ZBZAzxWlZCQaZAE9c7VaTgnDnMRcK8yCdCtZAD8RWl6R7KkZCtg39yM5Mbhw6HdBX6JLWBkTwqj4hPy4mUfrGLREjhXszbm8ARr7Wy7FShaAuoym9OQPgoI8UhMi4axAUZD";
             for(String field : fields)
             {
-                String url = "https://graph.facebook.com/v2.3/me/"+field+"?access_token=" + token;
+                String url;
+            if(field.equals("likes")) url = "https://graph.facebook.com/v2.3/me/"+field+"?summary=total_count&access_token=" + token;
+            else url = "https://graph.facebook.com/v2.3/me/"+field+"?access_token=" + token;
+            
             URL urlobj = new URL(url);
             HttpURLConnection con = (HttpURLConnection) urlobj.openConnection();
             con.setRequestMethod("GET");

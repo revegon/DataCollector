@@ -8,7 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="DataCollector.jar" size="9626" download="eager" />
+    <jar href="DataCollector.jar" size="15975" download="eager" />
+    <jar href="lib\json-20080701.jar" size="37875" download="eager" />
+    <jar href="lib\mongo-java-driver-3.2.2.jar" size="1484724" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DataCollector" >
     <param name="requiredFXVersion" value="8.0+"/>

@@ -25,7 +25,7 @@ public class DataCollector extends Application {
         try {
             window = primaryStage;
             
-            Parent root = FXMLLoader.load(getClass().getResource("/fxml/BFI_Form.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/fxml/front.fxml"));
             primaryStage.setTitle("Data Collector");
             primaryStage.setScene(new Scene(root));
             primaryStage.setResizable(false);

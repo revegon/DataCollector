@@ -1,0 +1,75 @@
+{
+   "data": [
+      {
+         "name": "Data recovery company dhaka bangladesh",
+         "privacy": "OPEN",
+         "id": "167914616915908",
+         "administrator": false,
+         "bookmark_order": 39,
+         "unread": 0
+      },
+      {
+         "name": "Laptop repair company Dhaka Bangladesh",
+         "privacy": "OPEN",
+         "id": "639553822771213",
+         "administrator": false,
+         "bookmark_order": 40,
+         "unread": 0
+      },
+      {
+         "name": "Top  News",
+         "privacy": "OPEN",
+         "id": "489794961176811",
+         "administrator": false,
+         "bookmark_order": 41,
+         "unread": 4
+      },
+      {
+         "name": "WE WANT MEDICAL RE-ADMISSION TEST FOR 2015-2016 BATCH",
+         "privacy": "SECRET",
+         "id": "904890676250807",
+         "administrator": false,
+         "bookmark_order": 42,
+         "unread": 0
+      },
+      {
+         "name": "PXLR Gallery \u3010\u30c4\u3011",
+         "privacy": "OPEN",
+         "id": "301501670015586",
+         "administrator": false,
+         "bookmark_order": 43,
+         "unread": 0
+      },
+      {
+         "name": "\u09b8\u09c7\u09b2\u09ab\u09bf \u09b8\u09cd\u099f\u09be\u09b0\u0964",
+         "privacy": "OPEN",
+         "id": "656355624500050",
+         "administrator": false,
+         "bookmark_order": 44,
+         "unread": 0
+      },
+      {
+         "name": "\u09ab\u099f\u09cb\u0997\u09cd\u09b0\u09be\u09ab\u09bf \u09b6\u09bf\u0996\u099b\u09bf (Photography Shikhchi)",
+         "privacy": "CLOSED",
+         "id": "106056679728266",
+         "administrator": false,
+         "bookmark_order": 45,
+         "unread": 7
+      },
+      {
+         "name": "THSS Buying Zone",
+         "privacy": "OPEN",
+         "id": "1568653590040177",
+         "administrator": false,
+         "bookmark_order": 46,
+         "unread": 0
+      }
+   ],
+   "paging": {
+      "cursors": {
+         "before": "QVFIUmhZAM0p5akhCeWd1YXprUFRNR2J2RGlCZAmVRcnN5WVZA0Y0dJZAFdBZAjAzZAm5qa3NYQmZABZAmFsUkVxMkJ5cmtiUUxvV1FBYS1sS3NwUkVtVkxGVjZAJY01R",
+         "after": "QVFIUjNQbG9WM0hqalhXc2k3akR5TXV2a09nSm9SVUxyVjFKNTI5ejA0SDlaekRlbFNBVUhZASFF5VG52UWRyZA3ZAqSnN0dXEydnMyMHNZAMXplVms0eUZAJQ0Fn"
+      },
+      "previous": "https://graph.facebook.com/v2.3/997560040284924/groups?access_token=EAACEdEose0cBAHqTLqXgMMdhqSusm6Ax1LXvE5it8jK0cve8IXnlKtyrIE0nR1ZA3kMUNgOglkNrJ6ic7I69W8ETaFsiPuT9hGxm86nhp70H5E7IjEFhLATPrimiMZCq1LNIdPz8ahs82B1LNq5cvqDXNDEoNOjHCaMJBUsBZCJa0b89vFXNhASntlkyZB4ZD&pretty=1&limit=25&before=QVFIUmhZAM0p5akhCeWd1YXprUFRNR2J2RGlCZAmVRcnN5WVZA0Y0dJZAFdBZAjAzZAm5qa3NYQmZABZAmFsUkVxMkJ5cmtiUUxvV1FBYS1sS3NwUkVtVkxGVjZAJY01R"
+   }
+}

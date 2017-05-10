@@ -48,9 +48,18 @@ public class FrontController extends Controller implements Initializable {
             return;
         }
         
-        
+        Thread t = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    Crawler crawler = new Crawler(name, reg);
+                    crawler.crawl(codeField.getText());
+                }
+         });
+        t.start();
         
         changeScene("/fxml/BFI_Form.fxml");
     }
+
+    
     
 }

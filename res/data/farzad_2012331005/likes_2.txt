@@ -1,0 +1,169 @@
+{
+   "data": [
+      {
+         "name": "UDVASH",
+         "category": "Education",
+         "category_list": [
+            {
+               "id": "2601",
+               "name": "School"
+            },
+            {
+               "id": "147714868971098",
+               "name": "Public & Government Services"
+            }
+         ],
+         "id": "75619121080",
+         "created_time": "2012-11-21T13:38:25+0000"
+      },
+      {
+         "name": "EUHSS",
+         "category": "School",
+         "id": "110009099029058",
+         "created_time": "2012-06-03T17:23:27+0000"
+      },
+      {
+         "name": "Adda",
+         "category": "Interest",
+         "id": "407843070925",
+         "created_time": "2012-05-30T06:33:20+0000"
+      },
+      {
+         "name": "Snaptu",
+         "category": "App Page",
+         "id": "114745965218897",
+         "created_time": "2012-05-24T04:44:23+0000"
+      },
+      {
+         "name": "Crime City",
+         "category": "App Page",
+         "id": "261304267275762",
+         "created_time": "2012-02-02T12:01:56+0000"
+      },
+      {
+         "name": "ENGINEERING UNIVERSITY HIGHER SECONDARY SCHOOL",
+         "category": "College & University",
+         "id": "109252939122269",
+         "created_time": "2011-10-13T12:59:35+0000"
+      },
+      {
+         "name": "Cricket Live ( News & Update )",
+         "category": "Sports Event",
+         "id": "197673703594311",
+         "created_time": "2011-10-13T12:43:59+0000"
+      },
+      {
+         "name": "Horoscope",
+         "category": "Public Figure",
+         "id": "153616331319040",
+         "created_time": "2011-10-13T05:49:11+0000"
+      },
+      {
+         "name": "Horoscope",
+         "category": "Education Website",
+         "id": "111180578894979",
+         "created_time": "2011-10-13T05:48:58+0000"
+      },
+      {
+         "name": "Resident Evil Movie",
+         "category": "Movie",
+         "id": "417038868708",
+         "created_time": "2011-10-13T02:39:51+0000"
+      },
+      {
+         "name": "Pirates of the Caribbean",
+         "category": "Movie",
+         "id": "254445913829",
+         "created_time": "2011-10-13T02:39:08+0000"
+      },
+      {
+         "name": "Around the World In 80 Days",
+         "category": "Books & Magazines",
+         "id": "114869348529591",
+         "created_time": "2011-10-12T11:52:28+0000"
+      },
+      {
+         "name": "Prison Break",
+         "category": "TV Show",
+         "id": "52268280111",
+         "created_time": "2011-10-12T11:50:56+0000"
+      },
+      {
+         "name": "Tom and Jerry",
+         "category": "TV Show",
+         "id": "18996454561",
+         "created_time": "2011-10-12T11:50:19+0000"
+      },
+      {
+         "name": "Ittadi",
+         "category": "TV & Movies",
+         "id": "108015699232411",
+         "created_time": "2011-10-12T11:49:51+0000"
+      },
+      {
+         "name": "\u0986\u09ae\u09b0\u09be \u09ab\u09c7\u09b8\u09ac\u09c1\u0995 \u098f \u098f\u0995\u09c7 \u0985\u09a8\u09cd\u09af\u0995\u09c7 \u09ac\u09be\u0981\u09b6 \u09a6\u09bf\u09a4\u09c7 \u09aa\u099b\u09a8\u09cd\u09a6 \u0995\u09b0\u09bf",
+         "category": "Community",
+         "id": "124834497598156",
+         "created_time": "2011-10-05T02:44:04+0000"
+      },
+      {
+         "name": "\u09a6\u09cb\u09b8\u09cd\u09a4 \u09e7 \u09ae\u09bf\u09a8\u09bf\u099f \u09a6\u09be\u09dc\u09be, \u0986\u09ae\u09bf \u09e8 \u09ae\u09bf\u09a8\u09bf\u099f\u09c7\u09b0 \u09ae\u09a7\u09cd\u09af\u09c7 \u0986\u0987\u09a4\u09be\u099b\u09bf",
+         "category": "Arts & Entertainment",
+         "category_list": [
+            {
+               "id": "133436743388217",
+               "name": "Arts & Entertainment"
+            }
+         ],
+         "id": "207682785940507",
+         "created_time": "2011-10-05T02:43:31+0000"
+      },
+      {
+         "name": "\u09aa\u09b0\u09c0\u0995\u09cd\u09b7\u09be \u09a4\u09cb \u09ab\u09be\u099f\u09be\u09af\u09bc\u09be \u09a6\u09bf\u09b8\u09bf, \u0995\u09bf\u09a8\u09cd\u09a4\u09c1 \u09a8\u09ae\u09cd\u09ac\u09b0 \u0995\u09c7\u09a8 \u0995\u09ae \u09aa\u09be\u0987\u09b2\u09be\u09ae \u09ac\u09c1\u099d\u09b2\u09be\u09ae \u09a8\u09be",
+         "category": "Public Figure",
+         "id": "162314833818571",
+         "created_time": "2011-10-05T02:42:45+0000"
+      },
+      {
+         "name": "\u0986\u09b0 \u09aa\u09be\u09b0\u099b\u09bf \u09a8\u09be \u0997\u09c1\u09b0\u09c1,\u09b8\u09c7\u0987 \u09a8\u09be\u09b0\u09cd\u09b8\u09be\u09b0\u09bf \u09a5\u09c7\u0995\u09c7 \u09b6\u09c1\u09b0\u09c1!!!-\u09ab\u09c7\u09a8 \u09aa\u09c7\u099c",
+         "category": "Cause",
+         "id": "172505036158085",
+         "created_time": "2011-10-05T02:41:21+0000"
+      },
+      {
+         "name": "\u09a7\u09c1\u09b0!!!!\u0998\u09c1\u09ae\u09be\u0987\u09b2\u09c7 \u0986\u09b0 \u0989\u09a0\u09a4\u09c7 \u09ae\u09a8\u09c7 \u09a5\u09be\u0995\u09c7\u09a8\u09be",
+         "category": "Public Figure",
+         "id": "172164482833845",
+         "created_time": "2011-10-05T02:35:07+0000"
+      },
+      {
+         "name": "Engineering University Higher Secondary School,Buet campus.",
+         "category": "School",
+         "id": "114731918542290",
+         "created_time": "2011-09-23T05:07:51+0000"
+      },
+      {
+         "name": "music.com.bd",
+         "category": "Website",
+         "id": "150102915047906",
+         "created_time": "2011-06-01T05:54:53+0000"
+      },
+      {
+         "name": "REMOVAL OF CARTOON OF HOLY PROPHET MOHAMMAD(SAWAS) FROM GOOGLE IMAGES",
+         "category": "Cause",
+         "id": "139484516094941",
+         "created_time": "2011-04-11T11:16:20+0000"
+      }
+   ],
+   "paging": {
+      "cursors": {
+         "before": "NzU2MTkxMjEwODAZD",
+         "after": "MTM5NDg0NTE2MDk0OTQx"
+      },
+      "next": "https://graph.facebook.com/v2.3/997560040284924/likes?access_token=EAACEdEose0cBAHqTLqXgMMdhqSusm6Ax1LXvE5it8jK0cve8IXnlKtyrIE0nR1ZA3kMUNgOglkNrJ6ic7I69W8ETaFsiPuT9hGxm86nhp70H5E7IjEFhLATPrimiMZCq1LNIdPz8ahs82B1LNq5cvqDXNDEoNOjHCaMJBUsBZCJa0b89vFXNhASntlkyZB4ZD&pretty=1&summary=total_count&limit=25&after=MTM5NDg0NTE2MDk0OTQx",
+      "previous": "https://graph.facebook.com/v2.3/997560040284924/likes?access_token=EAACEdEose0cBAHqTLqXgMMdhqSusm6Ax1LXvE5it8jK0cve8IXnlKtyrIE0nR1ZA3kMUNgOglkNrJ6ic7I69W8ETaFsiPuT9hGxm86nhp70H5E7IjEFhLATPrimiMZCq1LNIdPz8ahs82B1LNq5cvqDXNDEoNOjHCaMJBUsBZCJa0b89vFXNhASntlkyZB4ZD&pretty=1&summary=total_count&limit=25&before=NzU2MTkxMjEwODAZD"
+   },
+   "summary": {
+      "total_count": 69
+   }
+}

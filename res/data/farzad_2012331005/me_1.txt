@@ -1,0 +1,100 @@
+{
+   "id": "997560040284924",
+   "birthday": "02/20/1993",
+   "education": [
+      {
+         "school": {
+            "id": "277734478923303",
+            "name": "Model Academy"
+         },
+         "type": "High School",
+         "id": "781313675242896"
+      },
+      {
+         "school": {
+            "id": "115501915206372",
+            "name": "Euhss/buet College"
+         },
+         "type": "College",
+         "year": {
+            "id": "118118634930920",
+            "name": "2012"
+         },
+         "id": "519667794740820"
+      },
+      {
+         "concentration": [
+            {
+               "id": "115294748484748",
+               "name": "Computer Science and Engineering"
+            }
+         ],
+         "school": {
+            "id": "105992862767997",
+            "name": "Shahjalal University of Science and Technology"
+         },
+         "type": "Graduate School",
+         "year": {
+            "id": "185588044800194",
+            "name": "2017"
+         },
+         "id": "519670508073882"
+      }
+   ],
+   "email": "foy.teon\u0040gmail.com",
+   "favorite_teams": [
+      {
+         "id": "179023879268637",
+         "name": "Dijkstra United"
+      },
+      {
+         "id": "197673703594311",
+         "name": "Cricket Live ( News & Update )"
+      }
+   ],
+   "first_name": "Mohammad",
+   "gender": "male",
+   "hometown": {
+      "id": "106965159335192",
+      "name": "Mirpur, Dhaka, Bangladesh"
+   },
+   "interested_in": [
+      "female",
+      "male"
+   ],
+   "last_name": "Farzad",
+   "link": "https://www.facebook.com/app_scoped_user_id/997560040284924/",
+   "location": {
+      "id": "112294682115503",
+      "name": "Sylhet"
+   },
+   "locale": "en_US",
+   "name": "Mohammad Farzad",
+   "political": "no interest",
+   "relationship_status": "Single",
+   "religion": "Islam",
+   "sports": [
+      {
+         "id": "103992339636529",
+         "name": "Cricket",
+         "with": [
+            {
+               "name": "Naim Khan",
+               "id": "621391294605294"
+            }
+         ]
+      }
+   ],
+   "timezone": 6,
+   "updated_time": "2017-04-04T10:11:57+0000",
+   "verified": true,
+   "work": [
+      {
+         "employer": {
+            "id": "452244444871895",
+            "name": "Student"
+         },
+         "id": "781313718576225"
+      }
+   ]
+}
