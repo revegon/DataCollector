@@ -5,8 +5,11 @@
         <group>
             <file>file:/F:/new%20projects/DataCollector/src/datacollector/Crawler.java</file>
             <file>file:/F:/new%20projects/DataCollector/src/datacollector/DataCollector.java</file>
+            <file>file:/F:/new%20projects/DataCollector/src/datacollector/BFIdata.java</file>
+            <file>file:/F:/new%20projects/DataCollector/src/datacollector/BFI_FormController.java</file>
             <file>file:/F:/new%20projects/DataCollector/src/datacollector/FrontController.java</file>
-            <file>file:/F:/new%20projects/DataCollector/src/fxml/front.fxml</file>
+            <file>file:/F:/new%20projects/DataCollector/src/datacollector/Controller.java</file>
+            <file>file:/F:/new%20projects/DataCollector/src/database/BFIdataTable.java</file>
         </group>
     </open-files>
 </project-private>

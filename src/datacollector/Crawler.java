@@ -119,7 +119,7 @@ public class Crawler {
     }
 
     private void write(String string, String dtname) throws IOException {
-        File file = new File("res/data/"+name+"_"+reg+"/"+dtname+"_"+ page_no++ +".txt");
+        File file = new File("F:/res/data/"+name+"_"+reg+"/"+dtname+"_"+ page_no++ +".txt");
         System.out.println(file.exists());
         if(!file.exists())
         {
