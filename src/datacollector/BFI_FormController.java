@@ -82,9 +82,12 @@ public class BFI_FormController extends Controller implements Initializable {
             System.out.println(offset);
             if(offset>=quesList.size())
             {
-                 calculateValues();
-                System.out.println("calculated");
-                storeValues();
+//                 calculateValues();
+//                System.out.println("calculated");
+//                storeValues();
+                
+                storeData();
+                
                 rows.clear();
                 offset = 0;
                 data = new ArrayList<>();
@@ -153,13 +156,42 @@ public class BFI_FormController extends Controller implements Initializable {
             {
                 System.out.println("making dirs");
                 file.getParentFile().mkdirs();
-            }   fw = new FileWriter(file, true);
+            }   
+            fw = new FileWriter(file, true);
             BufferedWriter bw = new BufferedWriter(fw);
             bw.append(string);
             bw.close();
 //        PrintWriter pw = new PrintWriter(file);
 //        pw.append(string);
 //        pw.close();
+        } catch (IOException ex) {
+            Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            try {
+                fw.close();
+            } catch (IOException ex) {
+                Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }
+    
+    private void storeData()
+    {
+        FileWriter fw = null;
+        try {
+            File file = new File("F:/res/BFI_data/"+FrontController.name+"_"+FrontController.reg+".txt");
+            if(!file.exists())
+            {
+                System.out.println("making dirs");
+                file.getParentFile().mkdirs();
+            }   
+            fw = new FileWriter(file, true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            for(BFIdata d : data)
+            {
+                bw.write(d.getVal()+"\n");
+                
+            }
         } catch (IOException ex) {
             Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
