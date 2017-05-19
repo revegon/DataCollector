@@ -34,7 +34,7 @@ public class BFI_FormController extends Controller implements Initializable {
     @FXML private VBox container;
     
     private ArrayList<Row> rows;
-    private static final ArrayList<String> quesList = getQuesList();
+    private static ArrayList<String> quesList;
     private static ArrayList<BFIdata> data = new ArrayList<>();
     
 //    private String[] quesList = {"asdasdasd", "asdasdada", "asdasdaf", "hgdfgfdg", "asasfasf", "thyrte", "gsdgre"};
@@ -66,19 +66,24 @@ public class BFI_FormController extends Controller implements Initializable {
     
     public void next()
     {
+        int i=0;
         try{
+            for(Row r : rows)
+            {
+                int val = Integer.parseInt(r.getSelected());
+            }
             for(Row r : rows)
             {
                 String ques = r.getQuestion();
                 int val = Integer.parseInt(r.getSelected());
-//                System.out.println("val ="+ val);
+                System.out.println(i++ +"----------"+"val ="+ val);
                 BFIdata d = new BFIdata(ques, val);
                 data.add(d);
                 
             }
             
             rows.clear();
-            offset += 10;
+            offset += 50;
             System.out.println(offset);
             if(offset>=quesList.size())
             {
@@ -102,11 +107,11 @@ public class BFI_FormController extends Controller implements Initializable {
         }
     }
     
-    private static ArrayList<String> getQuesList()
+    public static void getQuesList(String lang)
     {
         ArrayList<String> list = new ArrayList<>();
         try {
-            Scanner sc = new Scanner(new File("res/QuestionList.txt"));
+            Scanner sc = new Scanner(new File("res/QuestionList_"+lang+".txt"), "UTF8");
             while(sc.hasNext())
             {
                 String s = sc.nextLine();
@@ -117,7 +122,7 @@ public class BFI_FormController extends Controller implements Initializable {
         } catch (FileNotFoundException ex) {
             Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return list;
+        quesList = list;
     }
 
     private void calculateValues() {
@@ -177,7 +182,9 @@ public class BFI_FormController extends Controller implements Initializable {
     
     private void storeData()
     {
+        int i=0;
         FileWriter fw = null;
+        BufferedWriter bw = null;
         try {
             File file = new File("F:/res/BFI_data/"+FrontController.name+"_"+FrontController.reg+".txt");
             if(!file.exists())
@@ -186,17 +193,18 @@ public class BFI_FormController extends Controller implements Initializable {
                 file.getParentFile().mkdirs();
             }   
             fw = new FileWriter(file, true);
-            BufferedWriter bw = new BufferedWriter(fw);
+            bw = new BufferedWriter(fw);
             for(BFIdata d : data)
             {
-                bw.write(d.getVal()+"\n");
-                
+                bw.write(d.getVal()+" \n");
+                System.out.println(i++ +"---"+d.getVal()+"\n");
             }
         } catch (IOException ex) {
             Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
-                fw.close();
+//                fw.close();
+                bw.close();
             } catch (IOException ex) {
                 Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);
             }

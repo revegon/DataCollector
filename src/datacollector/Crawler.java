@@ -98,7 +98,7 @@ public class Crawler {
 
     private String read(InputStream is, String dtname) throws IOException{
         
-            BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF8"));
             StringBuilder response = new StringBuilder();
             String in;
             while ((in = br.readLine()) != null) {
