@@ -83,7 +83,7 @@ public class BFI_FormController extends Controller implements Initializable {
             }
             
             rows.clear();
-            offset += 50;
+            offset += 10;
             System.out.println(offset);
             if(offset>=quesList.size())
             {

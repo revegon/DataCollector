@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="DataCollector.jar" size="17707" download="eager" />
+    <jar href="DataCollector.jar" size="17722" download="eager" />
     <jar href="lib\json-20080701.jar" size="37875" download="eager" />
     <jar href="lib\mongo-java-driver-3.2.2.jar" size="1484724" download="eager" />
   </resources>
