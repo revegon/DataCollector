@@ -107,17 +107,20 @@ public class BFI_FormController extends Controller implements Initializable {
         }
     }
     
-    public static void getQuesList(String lang)
+    public static void getQuesList()
     {
         ArrayList<String> list = new ArrayList<>();
+        String s = null;
         try {
-            Scanner sc = new Scanner(new File("res/QuestionList_"+lang+".txt"), "UTF8");
-            while(sc.hasNext())
+            Scanner sc1 = new Scanner(new File("res/QuestionList_en.txt"), "UTF8");
+            Scanner sc2 = new Scanner(new File("res/QuestionList_bn.txt"), "UTF8");
+            while(sc1.hasNext())
             {
-                String s = sc.nextLine();
-                list.add(s);
+                 s = sc1.nextLine()+"("+sc2.nextLine()+")";
+                 list.add(s);
             }
 //            System.out.println(list.size());
+             
             
         } catch (FileNotFoundException ex) {
             Logger.getLogger(BFI_FormController.class.getName()).log(Level.SEVERE, null, ex);

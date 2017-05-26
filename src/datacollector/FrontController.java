@@ -46,11 +46,7 @@ public class FrontController extends Controller implements Initializable {
          reg = regField.getText();
         String accessCode = codeField.getText();
         String lang = language.getSelectionModel().getSelectedItem();
-        if(lang.contains("English"))
-        {
-            BFI_FormController.getQuesList("en");
-        }
-        else BFI_FormController.getQuesList("bn");
+        BFI_FormController.getQuesList();
         
         if(name.isEmpty() || reg.isEmpty() || accessCode.isEmpty())
         {
@@ -65,7 +61,7 @@ public class FrontController extends Controller implements Initializable {
                     crawler.crawl(codeField.getText());
                 }
          });
-        t.start();
+//        t.start();
         
         changeScene("/fxml/BFI_Form.fxml");
     }

@@ -19,12 +19,6 @@
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="560.0">
-               <children>
-                  <Label prefHeight="17.0" prefWidth="67.0" text="Language :" />
-                  <ChoiceBox fx:id="language" prefHeight="25.0" prefWidth="271.0" />
-               </children>
-            </HBox>
             <HBox alignment="CENTER" prefHeight="55.0" prefWidth="600.0">
                <children>
                   <Label prefHeight="17.0" prefWidth="43.0" text="Name :" />

@@ -10,6 +10,7 @@ import javafx.geometry.Pos;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.Tooltip;
 import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderStroke;
 import javafx.scene.layout.BorderStrokeStyle;
@@ -36,6 +37,7 @@ public class Row extends HBox{
         
         this.question = ques;
         Label quesLabel = new Label(question);
+        quesLabel.setTooltip(new Tooltip(question));
         quesLabel.setPrefSize(290, 45);
         quesLabel.setPadding(new Insets(0, 0, 0, 5));
 //        quesLabel.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
